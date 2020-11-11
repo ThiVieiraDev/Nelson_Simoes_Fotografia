@@ -2884,23 +2884,58 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #303030;
+				/* background-color: #efa8b0; */
+			}
+			.statistics li.style1:hover {
+				background-color: #d3d3d3a9;
+				color: black;
+				border: 1px solid #000000;
+				font-weight: bold;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #303030;
+				/* background-color: #c79cc8; */
+			}
+			.statistics li.style2:hover {
+				background-color: #d3d3d3a9;
+				color: black;
+				border: 1px solid #000000;
+				font-weight: bold;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #303030;
+				/* background-color: #a89cc8; */
+			}
+			.statistics li.style3:hover {
+				background-color: #d3d3d3a9;
+				color: black;
+				border: 1px solid #000000;
+				font-weight: bold;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #303030;
+				/* background-color: #9bb2e1; */
+			}
+			.statistics li.style4:hover {
+				background-color: #d3d3d3a9;
+				color: black;
+				border: 1px solid #000000;
+				font-weight: bold;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #303030;
+				/* background-color: #8cc9f0; */
+			}
+			.statistics li.style5:hover {
+				background-color: #d3d3d3a9;
+				color: black;
+				border: 1px solid #000000;
+				font-weight: bold;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3793,45 +3828,3 @@ input, select, textarea {
 	border-radius: 160px;
 	object-fit: cover;
 }
-
-.produtos {
-	width: 100%;
-}
-
-.produtos li {
-    display: inline-block;
-    text-align: center;
-    padding: 1% 2%;
-    box-sizing: border-box;
-    border: 1px solid #000000;
-	/* border-radius: 50%; */
-	margin: 0 2%;
-}
-
-.produtos li:hover {
-    border-color: red;
-}
-
-.produtos li:active {
-    border-color: green;
-}
-
-.produtos li:hover span {
-    font-size: 20px;
-}
-
-/* .produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
-
-}
-
-.produto-descricao {
-    font-size: 18px;
-}
-
-.produto-preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
-} */
