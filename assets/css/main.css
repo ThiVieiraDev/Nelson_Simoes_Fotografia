@@ -2429,7 +2429,7 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		/* padding-left: 1em; */
 	}
 
 		ul li {
@@ -3793,3 +3793,45 @@ input, select, textarea {
 	border-radius: 160px;
 	object-fit: cover;
 }
+
+.produtos {
+	width: 100%;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    padding: 1% 2%;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+	/* border-radius: 50%; */
+	margin: 0 2%;
+}
+
+.produtos li:hover {
+    border-color: red;
+}
+
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos li:hover span {
+    font-size: 20px;
+}
+
+/* .produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+} */
