@@ -2401,7 +2401,9 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 15em;
+    			height: 15em;
+    			object-fit: cover;
 			}
 
 		.image.main {
@@ -3854,3 +3856,9 @@ input, select, textarea {
 	object-fit: cover;
     object-position: 0 50%;
 }
+
+/* .imagem_galeria {
+	width: 15em;
+    height: 15em;
+    object-fit: cover;
+} */
