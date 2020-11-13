@@ -3842,3 +3842,15 @@ input, select, textarea {
 /* .title_ensaios:hover {
 	font-size: 2em;
 } */
+
+.imagem_logo_ensaio {
+	height: 390px;
+	object-fit: cover;
+    object-position: 0 40%;
+}
+
+.imagem_logo_ensaio_masculino {
+	height: 390px;
+	object-fit: cover;
+    object-position: 0 50%;
+}
