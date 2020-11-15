@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .teste{
+            position: absolute;
+            width: 200px;
+            height: 300px;
+            background-color: red;
+        }
+        .caixa1 {
+            position: absolute;
+            width: 200px;
+            height: 300px;
+            transition: width ease-in 0.5s;
+            right: 100px;
+            /* opacity: 0; */
+        }
+
+        .caixa2 {
+            position: absolute;
+            width: 200px;
+            height: 300px;
+            left: 100px;
+            overflow: hidden;
+            transition: width ease-in 0.5s;
+            /* opacity: 0; */
+        }
+
+        .anima1 {
+            transition: width ease-in 5s;
+            right: 0;
+        }
+
+        .anima2 {
+            transition: width ease-in 5s;
+            left: 0;
+        }
+
+        .esconde{
+            transition: width ease-in 5s;
+            opacity: 0;
+        }
+
+        .botoes {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #animacao1,
+        #animacao2 {
+            cursor: pointer;
+        }
+
+    </style>
+    <div class="teste">
+        <img src="images/ensaioF.jpg" alt="" id="animacao1" class="caixa1">
+        <img src="images/ensaioM.jpg" alt="" id="animacao2" class="caixa2">
+    </div>
+    <!-- <div class="botoes"> <span id="animacao1">Animação1</span>
+        <span id="animacao2">Animação2</span>
+    </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script>
+        $('#animacao1').hover(function () {
+            $('.caixa1').toggleClass('anima1');
+            $('.caixa2').toggleClass('esconde');
+        });
+        $('#animacao2').hover(function () {
+            $('.caixa2').toggleClass('anima2');
+            $('.caixa1').toggleClass('esconde');
+        });
+    </script>
+</body>
+
+</html>
